@@ -1,8 +1,8 @@
 import React from 'react'
 // import { DevTool } from '@hookform/devtools'
 // import { useForm } from 'react-hook-form'
-import styled from 'styled-components'
-import {  FormControl } from '@mui/material'
+// import styled from 'styled-components'
+// import {  FormControl } from '@mui/material'
 
 
 const LoginSignUp = () => {
@@ -17,20 +17,18 @@ const LoginSignUp = () => {
   // // }
   
   return (
-    <Container>
-      <FormHeader><span>Log In</span></FormHeader>
-      <Form noValidate>
-        <FormControl>
+    // <Container>
+    //   <FormHeader><span>Log In</span></FormHeader>
+    //   <Form noValidate>
+    //     {/* <FormControl>
           
-        </FormControl>
-      </Form>
-    </Container>
+    //     </FormControl> */}
+    //   </Form>
+    // </Container>
+    <div>Login</div>
   )
     
 }
 
 export default LoginSignUp
 
-const FormHeader = styled.div``
-const Container = styled.div``
-const Form = styled.form``
