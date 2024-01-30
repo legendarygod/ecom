@@ -6,18 +6,18 @@ const CategoryNav = () => {
   return (
     <NavCat>
       <Nav>
-        <Link style={{textDecoration: 'none'}} to={'/mens'}>
-          Men
+        <Link style={{textDecoration: 'none'}} to={'/sliding'}>
+          Sliding Doors
         </Link>
       </Nav>
       <Nav>
-        <Link style={{textDecoration: 'none'}} to={'/womens'}>
-          Women
+        <Link style={{textDecoration: 'none'}} to={'/bulletproof'}>
+          BulleProof Doors
         </Link>
       </Nav>
       <Nav>
-        <Link style={{textDecoration: 'none'}} to={'/kids'}>
-          Children
+        <Link style={{textDecoration: 'none'}} to={'/normal'}>
+          Normal Doors
         </Link>
       </Nav>
     </NavCat>

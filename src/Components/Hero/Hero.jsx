@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import hand_icon from '../Assets/Ecommerce_Frontend_Assets/Assets/hand_icon.png'
 import arrow_icon from '../Assets/Admin Panel Assets/arrow_icon.svg'
 import hero_image from '../Assets/Ecommerce_Frontend_Assets/Assets/hero_image.png'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -20,7 +21,9 @@ const Hero = () => {
                 <p>for everyone</p>
             </SubHeroLeft>
             <HeroLatest>
-                <HLText>Latest Collection</HLText>
+                <Link to='/normal'>
+                <HLText>View Categories</HLText>
+                </Link>
                 <img src={arrow_icon} alt='arrow_icon' />
             </HeroLatest>
         </HeroLeft>

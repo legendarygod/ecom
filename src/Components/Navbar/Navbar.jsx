@@ -50,11 +50,11 @@ export const Navbar = () => {
             </NMList>
         </NavMenu>
         <NavCart>
-            <Butt> 
+            {/* <Butt> 
                 <Link style={{textDecoration: 'none'}} to={'/login'}>
                     Login
                 </Link>
-            </Butt>
+            </Butt> */}
             <Link style={{textDecoration: 'none'}} to={'/cart'}>
                 <img src = {cart_icon} alt='cart_logo'/>
             </Link>
@@ -173,38 +173,38 @@ const NavCart = styled.div`
         width: 15px;
     }
 `
-const Butt = styled.button`
-    width: 157px;
-    height: 58px;
-    outline: none;
-    border: 1px solid #7a7a7a;
-    border-radius: 75px;
-    color: #515151;
-    font-size: 20px;
-    font-weight: 500;
-    background: #fff;
-    cursor: pointer;
+// const Butt = styled.button`
+//     width: 157px;
+//     height: 58px;
+//     outline: none;
+//     border: 1px solid #7a7a7a;
+//     border-radius: 75px;
+//     color: #515151;
+//     font-size: 20px;
+//     font-weight: 500;
+//     background: #fff;
+//     cursor: pointer;
 
-    &:active{
-        background: #f3f3f3;
-    }
-    @media(max-width: 1280px){
-        width: 120px;
-        height: 45px;
-        font-size: 16px;
-    }
-    @media(max-width: 1024px){
-     width: 80px;
-     height: 35px;
-     font-size: 14px;
-    }
-    @media (max-width:800px) {
-        width: 60px;
-        height: 30px;
-        font-size: 12px;
-    }
+//     &:active{
+//         background: #f3f3f3;
+//     }
+//     @media(max-width: 1280px){
+//         width: 120px;
+//         height: 45px;
+//         font-size: 16px;
+//     }
+//     @media(max-width: 1024px){
+//      width: 80px;
+//      height: 35px;
+//      font-size: 14px;
+//     }
+//     @media (max-width:800px) {
+//         width: 60px;
+//         height: 30px;
+//         font-size: 12px;
+//     }
 
-`
+// `
 const CartCounter = styled.div`
     width: 22px;
     height: 22px;
