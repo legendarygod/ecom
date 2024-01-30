@@ -1,0 +1,22 @@
+.nav-dropdown{
+    display: none;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 2px;
+    color: #000;
+}
+@media(max-width:800px){ 
+    .nav-dropdown{
+        display: block;
+        width: 30px;
+        rotate: -90deg;
+        transition: 1s;
+    }
+    .nav-menu-visible{
+        display: flex;
+    }   
+    .nav-dropdown.open{
+        transform: rotate(90deg);
+    }     
+}
+
